@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0423483F248CF2C9008A620E /* CrayonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0423483E248CF2C9008A620E /* CrayonView.m */; };
+		04C9688D248C824C006DF27C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C9688C248C824C006DF27C /* Cocoa.framework */; };
+		04C96897248C824C006DF27C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04C96895248C824C006DF27C /* InfoPlist.strings */; };
+		04C968A1248C855E006DF27C /* ClassicCrayons.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04C968A0248C855E006DF27C /* ClassicCrayons.xib */; };
+		04C968A3248C8776006DF27C /* ClassicCrayons-View.png in Resources */ = {isa = PBXBuildFile; fileRef = 04C968A2248C8776006DF27C /* ClassicCrayons-View.png */; };
+		04C968A5248C877F006DF27C /* ClassicCrayons-Colors.png in Resources */ = {isa = PBXBuildFile; fileRef = 04C968A4248C877F006DF27C /* ClassicCrayons-Colors.png */; };
+		04C968A8248C8D59006DF27C /* ClassicCrayons.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C968A7248C8D59006DF27C /* ClassicCrayons.m */; };
+		04C968AA248CAA99006DF27C /* ClassicCrayons-Colors.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04C968A9248CAA99006DF27C /* ClassicCrayons-Colors.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0423483D248CF2C9008A620E /* CrayonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CrayonView.h; path = ClassicCrayons/CrayonView.h; sourceTree = "<group>"; };
+		0423483E248CF2C9008A620E /* CrayonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CrayonView.m; path = ClassicCrayons/CrayonView.m; sourceTree = "<group>"; };
+		04C96889248C824C006DF27C /* ClassicCrayons.colorPicker */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClassicCrayons.colorPicker; sourceTree = BUILT_PRODUCTS_DIR; };
+		04C9688C248C824C006DF27C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		04C9688F248C824C006DF27C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		04C96890248C824C006DF27C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		04C96891248C824C006DF27C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		04C96894248C824C006DF27C /* ClassicCrayons-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ClassicCrayons-Info.plist"; sourceTree = "<group>"; };
+		04C96896248C824C006DF27C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		04C96898248C824C006DF27C /* ClassicCrayons-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ClassicCrayons-Prefix.pch"; sourceTree = "<group>"; };
+		04C968A0248C855E006DF27C /* ClassicCrayons.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ClassicCrayons.xib; sourceTree = "<group>"; };
+		04C968A2248C8776006DF27C /* ClassicCrayons-View.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ClassicCrayons-View.png"; sourceTree = "<group>"; };
+		04C968A4248C877F006DF27C /* ClassicCrayons-Colors.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ClassicCrayons-Colors.png"; sourceTree = "<group>"; };
+		04C968A6248C8D59006DF27C /* ClassicCrayons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ClassicCrayons.h; path = ClassicCrayons/ClassicCrayons.h; sourceTree = "<group>"; };
+		04C968A7248C8D59006DF27C /* ClassicCrayons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ClassicCrayons.m; path = ClassicCrayons/ClassicCrayons.m; sourceTree = "<group>"; };
+		04C968A9248CAA99006DF27C /* ClassicCrayons-Colors.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ClassicCrayons-Colors.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04C96886248C824C006DF27C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C9688D248C824C006DF27C /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04C9687E248C824C006DF27C = {
+			isa = PBXGroup;
+			children = (
+				04C968A0248C855E006DF27C /* ClassicCrayons.xib */,
+				04C968A6248C8D59006DF27C /* ClassicCrayons.h */,
+				04C968A7248C8D59006DF27C /* ClassicCrayons.m */,
+				0423483D248CF2C9008A620E /* CrayonView.h */,
+				0423483E248CF2C9008A620E /* CrayonView.m */,
+				04C96892248C824C006DF27C /* ClassicCrayons */,
+				04C9688B248C824C006DF27C /* Frameworks */,
+				04C9688A248C824C006DF27C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04C9688A248C824C006DF27C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04C96889248C824C006DF27C /* ClassicCrayons.colorPicker */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04C9688B248C824C006DF27C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04C9688C248C824C006DF27C /* Cocoa.framework */,
+				04C9688E248C824C006DF27C /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		04C9688E248C824C006DF27C /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04C9688F248C824C006DF27C /* AppKit.framework */,
+				04C96890248C824C006DF27C /* CoreData.framework */,
+				04C96891248C824C006DF27C /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		04C96892248C824C006DF27C /* ClassicCrayons */ = {
+			isa = PBXGroup;
+			children = (
+				04C96893248C824C006DF27C /* Supporting Files */,
+			);
+			path = ClassicCrayons;
+			sourceTree = "<group>";
+		};
+		04C96893248C824C006DF27C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04C96894248C824C006DF27C /* ClassicCrayons-Info.plist */,
+				04C96895248C824C006DF27C /* InfoPlist.strings */,
+				04C96898248C824C006DF27C /* ClassicCrayons-Prefix.pch */,
+				04C968A2248C8776006DF27C /* ClassicCrayons-View.png */,
+				04C968A4248C877F006DF27C /* ClassicCrayons-Colors.png */,
+				04C968A9248CAA99006DF27C /* ClassicCrayons-Colors.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04C96888248C824C006DF27C /* ClassicCrayons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04C9689B248C824C006DF27C /* Build configuration list for PBXNativeTarget "ClassicCrayons" */;
+			buildPhases = (
+				04C96885248C824C006DF27C /* Sources */,
+				04C96886248C824C006DF27C /* Frameworks */,
+				04C96887248C824C006DF27C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClassicCrayons;
+			productName = ClassicCrayons;
+			productReference = 04C96889248C824C006DF27C /* ClassicCrayons.colorPicker */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04C96880248C824C006DF27C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Kreative Korporation";
+			};
+			buildConfigurationList = 04C96883248C824C006DF27C /* Build configuration list for PBXProject "ClassicCrayons" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 04C9687E248C824C006DF27C;
+			productRefGroup = 04C9688A248C824C006DF27C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04C96888248C824C006DF27C /* ClassicCrayons */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04C96887248C824C006DF27C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C96897248C824C006DF27C /* InfoPlist.strings in Resources */,
+				04C968A1248C855E006DF27C /* ClassicCrayons.xib in Resources */,
+				04C968A3248C8776006DF27C /* ClassicCrayons-View.png in Resources */,
+				04C968A5248C877F006DF27C /* ClassicCrayons-Colors.png in Resources */,
+				04C968AA248CAA99006DF27C /* ClassicCrayons-Colors.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04C96885248C824C006DF27C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C968A8248C8D59006DF27C /* ClassicCrayons.m in Sources */,
+				0423483F248CF2C9008A620E /* CrayonView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04C96895248C824C006DF27C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04C96896248C824C006DF27C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04C96899248C824C006DF27C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		04C9689A248C824C006DF27C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		04C9689C248C824C006DF27C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ClassicCrayons/ClassicCrayons-Prefix.pch";
+				INFOPLIST_FILE = "ClassicCrayons/ClassicCrayons-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/ColorPickers";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = colorPicker;
+			};
+			name = Debug;
+		};
+		04C9689D248C824C006DF27C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ClassicCrayons/ClassicCrayons-Prefix.pch";
+				INFOPLIST_FILE = "ClassicCrayons/ClassicCrayons-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/ColorPickers";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = colorPicker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04C96883248C824C006DF27C /* Build configuration list for PBXProject "ClassicCrayons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04C96899248C824C006DF27C /* Debug */,
+				04C9689A248C824C006DF27C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04C9689B248C824C006DF27C /* Build configuration list for PBXNativeTarget "ClassicCrayons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04C9689C248C824C006DF27C /* Debug */,
+				04C9689D248C824C006DF27C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04C96880248C824C006DF27C /* Project object */;
+}
