@@ -72,6 +72,7 @@
         CGFloat r, g, b, a;
         [color getRed:&r green:&g blue:&b alpha:&a];
         if (r < 1.0f || g > 0.0f || b < 1.0f) {
+            [self setColor:color];
             [[self colorPanel] setColor:color];
         }
     }
